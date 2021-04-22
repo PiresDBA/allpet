@@ -148,8 +148,9 @@ background: linear-gradient(to right, #f66612, #f8d01d);
     padding:0 10% 0 10%;
 }
 .logo {
-  width: 12%;
+  width: 18%;
   position: relative;
+  padding: 1px 100px 0 0;
 }
 
 /* Title Section */
@@ -219,6 +220,7 @@ background: linear-gradient(to right, #f66612, #f8d01d);
 .social-icon {
   margin: 20px 10px;
   color: #f8d01d ;
+  font-size: 2rem;
 }
 
 .carousel-control-next-icon:after
