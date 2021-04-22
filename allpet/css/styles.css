@@ -1,0 +1,256 @@
+@font-face {
+font-family: 'Alba';
+font-style: normal;
+font-weight: normal;
+src: local('Alba'), url('ALBA____.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Gothan Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Gothan Medium'), url('gotham-medium-webfont.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Century Gothic';
+font-style: normal;
+font-weight: normal;
+src: local('Century Gothic'), url('century-gothic.tff') format('tff');
+}
+
+body {
+  font-family: "Gothan Medium";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gothan Medium";
+}
+
+p {
+  color: #FFF;
+  font-size: 1.5rem;
+  font-family: 'Century Gothic';
+}
+
+.bg-cover {
+    background-attachment: static;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.normal-verde {
+  color: #00a8c7;
+  font-size: 1.5rem;
+  font-family: 'Century Gothic';
+  text-align: center;
+}
+
+.normal-am {
+  color: #f66612;
+  font-size: 2rem;
+  font-family: 'Gothan Medium';
+  text-align: center;
+}
+
+.big-heading-verde {
+  font-family: "Gothan Medium";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #00a8c7;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.big-heading {
+  font-family: "Gothan Medium";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #eb008a;
+  text-align: center;
+    padding-top: 10%;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding-top: 0;
+
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #fff ;
+  color: #00a8c7;
+}
+
+.white-section {
+
+background: linear-gradient(to right, #f66612, #f8d01d);
+  /* background: linear-gradient(to right, #00a8c7, #eb008a); */
+}
+
+.myDiv {
+  background: linear-gradient(to right, #00a8c7, #eb008a);
+  /* background: linear-gradient(to right, #00a8c7,#f66612, #f8d01d, #eb008a); */
+}
+
+.navbar a{
+    font-family: 'Gothan Medium';
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #EB008A;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #00a8c7;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler{
+    width: 45px;
+    height: 34px;
+    background-color: #EB008A;
+    border:none;
+}
+.navbar-custom {
+    background-color: #FFF;
+    border-color: #E7E7E7;
+    padding: 1% 15% 1% 15%;
+}
+.logo {
+  width: 8%;
+  position: relative;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #fff;
+  color: #00a8c7;
+  text-align: left;
+
+}
+
+.container-fluid {
+  padding: 0 15% 5% 15%;
+}
+
+.carousel {
+  width: 600px;
+  height: 350px;
+  margin: 0 auto;
+}
+.carousel-inner>.item>img {
+  margin: 0 auto;
+}
+
+/* Title Image */
+
+.fundo {
+  position: absolute;
+  }
+
+/* Testimonial Section */
+
+#testimonials {
+  background: linear-gradient(to right, #00a8c7, #eb008a);
+}
+
+
+.testimonial-image {
+  width: 5%;
+  border-radius: 20%;
+  margin: 20px;
+}
+
+.w-10
+{
+  border-radius: 20%;
+  width: 80%;
+  height: auto;
+  /* margin: 5px; */
+    /* padding: 20px 10px; */
+}
+
+#Quem {
+  padding: 5px;
+  margin: 5px ;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+  color: #f8d01d ;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #00a8c7;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #f8d01d ;
+}
+
+.carousel-inner .item a img {
+
+margin: auto;
+
+}
+
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
