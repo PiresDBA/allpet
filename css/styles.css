@@ -24,9 +24,10 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3,h4, h5, h6 {
   font-family: "Gothan Medium";
 }
+
 
 p {
   color: #FFF;
@@ -45,32 +46,33 @@ p {
   color: #00a8c7;
   font-size: 1.5rem;
   font-family: 'Century Gothic';
-  text-align: center;
+  text-align: justify;
 }
 
 .normal-am {
   color: #f66612;
-  font-size: 2rem;
-  font-family: 'Gothan Medium';
-  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Century Gothic';
+  text-align:justify;
 }
 
 .big-heading-verde {
-  font-family: "Gothan Medium";
-  font-size: 3.5rem;
+  font-family: "Alba";
+  font-size: 6rem;
   line-height: 1.5;
   color: #00a8c7;
   text-align: center;
-  padding-top: 10%;
+  padding: 10% 0 3%;
 }
 
 .big-heading {
-  font-family: "Gothan Medium";
-  font-size: 3.5rem;
+  font-family: "Alba";
+  font-size: 6rem;
   line-height: 1.5;
-  color: #eb008a;
+  /* color: #eb008a; */
+  color: #fff;
   text-align: center;
-    padding-top: 10%;
+    padding: 10% 0 3%;
 }
 
 .section-heading {
@@ -92,17 +94,30 @@ p {
   color: #00a8c7;
 }
 
-.white-section {
-background: linear-gradient(to right, #f66612, #f8d01d);
+.FundoClaroLaranja {
+background: linear-gradient(to right, #ffe0cc, #fffae6, #fff);
+  /* background: linear-gradient(to right,  #ffffb3,#ffccb3, #99e6ff, #ffb3d9); */
 /* opacity: 90%; */
   /* background: linear-gradient(to right, #00a8c7, #eb008a); */
 }
 
-.myDiv {
-  background: linear-gradient(to right, #00a8c7, #eb008a);
-  opacity: 90%;
-  /* background: linear-gradient(to right, #00a8c7,#f66612, #f8d01d, #eb008a); */
+.fundoClaroAzul {
+  /* background: linear-gradient(to right, #00a8c7, #eb008a); */
+  background: linear-gradient(to right, #e6ffff, #e6e6ff);
+    /* background:#e6ffff */
+
+  /* background: linear-gradient(to right, #99e6ff,#ffccb3, #ffffb3, #ffb3d9); */
 }
+
+.colorido {
+  background: linear-gradient(to right, #00a8c7, #eb008a);
+}
+
+.colorido2 {
+background: linear-gradient(to right, #f66612, #f8d01d);
+
+}
+
 
 .navbar a{
     font-family: 'Gothan Medium';
