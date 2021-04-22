@@ -24,9 +24,9 @@ body {
   text-align: center;
 }
 
-h1, h2, h3,h4, h5, h6 {
+/* h1, h2, h3,h4, h5, h6 {
   font-family: "Gothan Medium";
-}
+} */
 
 
 p {
@@ -55,6 +55,37 @@ p {
   font-family: 'Century Gothic';
   text-align:justify;
 }
+
+.big-heading2-verde {
+  font-family: "Gothan Medium";
+  font-size: 6rem;
+  font-weight: bolder;
+  color: #00a8c7;
+  text-align:right;
+  /* padding: 10% 0 3%; */
+}
+
+
+.big-heading-color {
+  text-align:right;
+	background: linear-gradient(to right, #f66612 74%,  #00a8c7  90%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 3.5vw;
+  font-family: "Gothan Medium";
+	}
+
+  .heading-color2 {
+text-align:right;
+
+	background: linear-gradient(to right,  #f66612 72%, #00a8c7  80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 5vw;
+  font-family: 'Century Gothic', sans-serif;
+	}
+
+
 
 .big-heading-verde {
   font-family: "Alba";
@@ -120,17 +151,21 @@ background: linear-gradient(to right, #f66612, #f8d01d);
 
 
 .navbar a{
-    font-family: 'Gothan Medium';
-    font-weight:300;
+    font-family: 'Alba';
+    font-weight:600;
+    font-size: 2.5rem;
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: #f66612 ;
+    color:  #00a8c7 ;
+    /* padding-left: 20%; */
+    /* padding-right:10%; */
+    /* margin-right: 20%; */
 }
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #00a8c7;
+    color: #f66612;
 }
 
 .navbar-toggler-icon {
@@ -145,7 +180,8 @@ background: linear-gradient(to right, #f66612, #f8d01d);
 }
 .navbar-custom {
     background-color: #FFF;
-    padding:0 10% 0 10%;
+    /* padding:0 2% 0 2%; */
+    text-align: left;
 }
 .logo {
   width: 18%;
@@ -200,10 +236,10 @@ background: linear-gradient(to right, #f66612, #f8d01d);
     /* padding: 20px 10px; */
 }
 
-#Quem {
+/* #Quem {
   padding: 5px;
   margin: 5px ;
-}
+} */
 
 .price-text {
   font-size: 3rem;
