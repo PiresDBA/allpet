@@ -203,6 +203,20 @@ background: linear-gradient(to right, #f66612, #f8d01d);
 
 /* Title Image */
 
+.curved h1 {
+  font-family: "Alba";
+  font-size: 6rem;
+  /* line-height: 1.5; */
+  margin:0;
+  color: #fff;
+}
+.curved svg {
+  display:block;
+}
+
+.curved.upper {
+color: red;
+}
 
 #testimonials {
   background: linear-gradient(to right, #00a8c7, #eb008a);
